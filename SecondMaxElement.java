@@ -20,12 +20,7 @@ public class SecondMaxElement {
 				}
 			}
 		}
-		for (int i = 0; i < a.length - 1; i++) {
-			if (a[i] > a[i + 1]) {
-				System.out.println("2nd max. element is :" + a[i + 1]);
-				break;
-			}
-		}
+	System.out.println("2nd max. element is :" + a[1]);
 
 		// type 2 without sorting
 		int num[] = { 3, 6, 5, 9, 7, 10 };
